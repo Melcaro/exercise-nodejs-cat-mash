@@ -41,7 +41,9 @@ export class PlayZone extends React.Component {
     return (
       <div>
         <h1>Choose your Cat </h1>
-        <div onClick={this.addPointsToSelectedCat.bind(this,firstCatID,second)}>
+        <div
+          onClick={this.addPointsToSelectedCat.bind(this, firstCatID, second)}
+        >
           <img src={firstCatURL} id={firstCatID} alt="kiitteen" />
         </div>
         <div onClick={this.addPointsToSelectedCat}>
